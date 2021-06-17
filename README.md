@@ -58,8 +58,9 @@ About
 0xStockBot is a Discord Stock Bot made with `Python` using `discord.py`, using also [Polygon API](https://polygon.io/).
 if you want a reminder of the total commands that are built in ***0xStockBot***.
 
- <img src="https://github.com/Reda-BELHAJ/0xStockBot/blob/master/LogoStock.JPG">
-
+<p align="center">
+ <img src="https://github.com/Reda-BELHAJ/0xStockBot/blob/master/Pictures/HelpCommand.JPG" height="300">
+</p>
 
 ### Built With
 
