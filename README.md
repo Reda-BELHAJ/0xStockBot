@@ -2,7 +2,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
@@ -43,16 +42,13 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -70,10 +66,8 @@ Here's a blank template to get started:
 
 ### Built With
 
-* []()
-* []()
-* []()
-
+* [Python](https://docs.python.org/3/)
+* [Discrord.py](https://discordpy.readthedocs.io/en/stable/)
 
 
 <!-- GETTING STARTED -->
@@ -81,26 +75,12 @@ Here's a blank template to get started:
 
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
 
 1. Clone the repo
    ```sh
    git clone https://github.com/github_username/repo_name.git
    ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -114,7 +94,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Reda-BELHAJ/0xStockBot/issues) for a list of proposed features (and known issues).
 
 
 
@@ -130,14 +110,6 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
 <!-- CONTACT -->
 ## Contact
 
@@ -148,20 +120,16 @@ Project Link: [https://github.com/Reda-BELHAJ/0xStockBot](https://github.com/Red
 
 
 
-
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Reda-BELHAJ/repo.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Reda-BELHAJ/0xStockBot.svg?style=for-the-badge
 [contributors-url]: https://github.com/Reda-BELHAJ/0xStockBot/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Reda-BELHAJ/repo.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/Reda-BELHAJ/0xStockBot.svg?style=for-the-badge
 [forks-url]: https://github.com/Reda-BELHAJ/0xStockBot/network/members
-[stars-shield]: https://img.shields.io/github/stars/Reda-BELHAJ/repo.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/Reda-BELHAJ/0xStockBot.svg?style=for-the-badge
 [stars-url]: https://github.com/Reda-BELHAJ/0xStockBot/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Reda-BELHAJ/repo.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/Reda-BELHAJ/0xStockBot.svg?style=for-the-badge
 [issues-url]: https://github.com/Reda-BELHAJ/0xStockBot/issues
-[license-shield]: https://img.shields.io/github/license/Reda-BELHAJ/repo.svg?style=for-the-badge
-[license-url]: https://github.com/Reda-BELHAJ/0xStockBot/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/Reda-BELHAJ/0xStockBot.svg?style=for-the-badge
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/reda-belhaj
