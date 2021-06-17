@@ -54,9 +54,11 @@
 ## About The Project
 
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+About
+0xStockBot is a Discord Stock Bot made with `Python` using `discord.py`, using also [Polygon API](https://polygon.io/).
+if you want a reminder of the total commands that are built in ***0xStockBot***.
+
+ <img src="https://github.com/Reda-BELHAJ/0xStockBot/blob/master/LogoStock.JPG">
 
 
 ### Built With
