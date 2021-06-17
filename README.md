@@ -14,11 +14,6 @@
   <h3 align="center">0xStockBot</h3>
 
   <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
     <a href="https://discord.com/api/oauth2/authorize?client_id=853942172750184498&permissions=2148002880&scope=bot">Get Bot Link</a>
     ·
     <a href="https://github.com/github_username/0xStockBot/issues">Report Bug</a>
@@ -57,7 +52,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
@@ -73,6 +67,7 @@ Here's a blank template to get started:
 <!-- GETTING STARTED -->
 ## Getting Started
 
+If you want to try out the bot please join [this server:](https://discord.gg/dBGqATnk) or [get the invite](https://discord.com/api/oauth2/authorize?client_id=853942172750184498&permissions=2148002880&scope=bot).
 To get a local copy up and running follow these simple steps.
 
 ### Installation
