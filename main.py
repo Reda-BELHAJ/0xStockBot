@@ -19,12 +19,40 @@ async def on_message(message):
         embed = discord.Embed(color=discord.Color.from_rgb(3, 252, 144))
         embed.description = "The Invite URL for Me! is : [Click Here](" + utility.Invite_URL +")" 
         await message.channel.send(embed=embed)
+        
 
     if message.content.startswith('$Ping'):
         embed = discord.Embed(color=discord.Color.from_rgb(3, 252, 144))
         embed.description = f':hourglass: {round(client.latency * 1000)}ms'
         await message.channel.send(embed=embed)
 
+    if message.content.startswith('$Price'):
+      if len(message.content.split()) > 1 and len(message.content.split()) < 3:
+
+        price = utility.getPrice(message.content.split()[1])
+        if price != '0':
+          embed = discord.Embed(color=discord.Color.from_rgb(3, 252, 144))
+
+          embed.title = message.content.split()[1]
+          embed.add_field(name="Price", value=str(price)[0:10], inline=True)
+          embed.set_footer(text="Information requested by: " + message.author.display_name)
+
+          await message.channel.send(embed=embed)
+        else:
+          embed = discord.Embed(color=discord.Color.from_rgb(255,0,0))
+          embed.title = "Ticker Not Found"
+          embed.add_field(name="Detail Command Usage", value="$Detail [Ticker]", inline=True)
+          embed.add_field(name="Ticker Validation", value="Make sure that the ticker is verifed and in uppercase.", inline=True)
+          embed.set_footer(text="Information requested by: " + message.author.display_name)
+
+          await message.channel.send(embed=embed)
+      else:
+        embed = discord.Embed(color=discord.Color.from_rgb(255,0,0))
+        embed.title = "Command Not Found"
+        embed.add_field(name="Price Command Usage", value="$Price [Ticker]", inline=True)
+        embed.set_footer(text="Information requested by: " + message.author.display_name)
+
+        await message.channel.send(embed=embed)
 
     if message.content.startswith('$Detail'):
       if len(message.content.split()) > 1 and len(message.content.split()) < 3:
@@ -71,7 +99,7 @@ async def on_message(message):
         embed.add_field(name="$News [Ticker]", value="This command returns the news of the ticker specified.", inline=True)
         embed.add_field(name="$Help", value="This command returns this message.", inline=True)
         embed.add_field(name="$Invite", value="This command sends you the invite link for the bot.", inline=True)
-        embed.add_field(name="$Chart [Ticker]", value="This command returns a chart of the ticker specified.", inline=True)
+        embed.add_field(name="$Price [Ticker]", value="This command returns the current price of the ticker specified.", inline=True)
         embed.add_field(name="$Detail [Ticker]", value="This command returns the details of the ticker specified.", inline=True)
 
         embed.set_footer(text="Information requested by: " + message.author.display_name)
