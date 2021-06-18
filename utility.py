@@ -1,6 +1,7 @@
 import os
 import requests
 import datetime
+from yahoo_fin import stock_info as si
 
 API_KEY     = os.environ['API_KEY']
 LIMIT_NEWS  = '100'
@@ -9,6 +10,14 @@ CLIENT_ID   = os.getenv('CLIENT_ID')
 PERM        = '2148002880'
 
 Invite_URL = f'https://discord.com/api/oauth2/authorize?client_id={CLIENT_ID}&permissions={PERM}&scope=bot'
+
+def getPrice(ticker):
+  price = '0'
+  try:
+    price = si.get_live_price(ticker)
+  except:
+    pass
+  return price
 
 def getDetails(ticker):
     Detail_URL = f'https://api.polygon.io/v1/meta/symbols/{ticker}/company?&apiKey={API_KEY}'
