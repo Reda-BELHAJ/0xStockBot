@@ -52,7 +52,7 @@ About
 if you want a reminder of the total commands that are built in ***0xStockBot***.
 
 <p align="center">
- <img src="https://github.com/Reda-BELHAJ/0xStockBot/blob/master/Pictures/HelpCommand.JPG" height="300">
+ <img src="https://github.com/Reda-BELHAJ/0xStockBot/blob/master/Pictures/Test.JPG" height="300">
 </p>
 
 ### Built With
