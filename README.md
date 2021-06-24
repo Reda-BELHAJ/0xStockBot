@@ -59,6 +59,7 @@ if you want a reminder of the total commands that are built in ***0xStockBot***.
 * [Python](https://docs.python.org/3/)
 * [Discrord.py](https://discordpy.readthedocs.io/en/stable/)
 * [discord-py-slash-command](https://discord-py-slash-command.readthedocs.io/en/latest/)
+* [yahoo_fin](http://theautomatic.net/yahoo_fin-documentation/)
 
 ## Getting Started
 
