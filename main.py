@@ -38,12 +38,12 @@ async def _Help(ctx:SlashContext):
     embed.description = "Here are the commands that you can use:"
     embed.set_thumbnail(url=client.user.avatar_url)
 
-    embed.add_field(name="$Ping", value="This command returns the ping.", inline=True)
-    embed.add_field(name="$News [Ticker]", value="This command returns the news of the ticker specified.", inline=True)
-    embed.add_field(name="$Help", value="This command returns this message.", inline=True)
-    embed.add_field(name="$Invite", value="This command sends you the invite link for the bot.", inline=True)
-    embed.add_field(name="$Price [Ticker]", value="This command returns the current price of the ticker specified.", inline=True)
-    embed.add_field(name="$Detail [Ticker]", value="This command returns the details of the ticker specified.", inline=True)
+    embed.add_field(name="/Ping", value="This command returns the ping.", inline=True)
+    embed.add_field(name="/News [Ticker]", value="This command returns the news of the ticker specified.", inline=True)
+    embed.add_field(name="/Help", value="This command returns this message.", inline=True)
+    embed.add_field(name="/Invite", value="This command sends you the invite link for the bot.", inline=True)
+    embed.add_field(name="/Price [Ticker]", value="This command returns the current price of the ticker specified.", inline=True)
+    embed.add_field(name="/Detail [Ticker]", value="This command returns the details of the ticker specified.", inline=True)
 
     embed.set_footer(text="Information requested by: " + ctx.author.name)
 
@@ -74,7 +74,7 @@ async def _Price(ctx:SlashContext, ticker:str):
   else:
     embed = discord.Embed(color=discord.Color.from_rgb(255,0,0))
     embed.title = "Ticker Not Found"
-    embed.add_field(name="Price Command Usage", value="$Price [Ticker]", inline=True)
+    embed.add_field(name="Price Command Usage", value="/Price [Ticker]", inline=True)
     embed.add_field(name="Ticker Validation", value="Make sure that the ticker is verifed and in uppercase.", inline=True)
     embed.set_footer(text="Information requested by: " + ctx.author.name)
     await ctx.send(embed=embed)
@@ -111,7 +111,7 @@ async def _Detail(ctx:SlashContext, ticker:str):
   else:
     embed = discord.Embed(color=discord.Color.from_rgb(255,0,0))
     embed.title = "Ticker Not Found"
-    embed.add_field(name="Detail Command Usage", value="$Detail [Ticker]", inline=True)
+    embed.add_field(name="Detail Command Usage", value="/Detail [Ticker]", inline=True)
     embed.add_field(name="Ticker Validation", value="Make sure that the ticker is verifed and in uppercase.", inline=True)
     embed.set_footer(text="Information requested by: " + ctx.author.name)
 
@@ -148,7 +148,7 @@ async def _News(ctx:SlashContext, ticker:str):
   else:
       embed = discord.Embed(color=discord.Color.from_rgb(255,0,0))
       embed.title = "Ticker Not Found"
-      embed.add_field(name="News Command Usage", value="$News [Ticker]", inline=True)
+      embed.add_field(name="News Command Usage", value="/News [Ticker]", inline=True)
       embed.add_field(name="Ticker Validation", value="Make sure that the ticker is verifed and in uppercase.", inline=True)
       embed.set_footer(text="Information requested by: " + ctx.author.name)
 
