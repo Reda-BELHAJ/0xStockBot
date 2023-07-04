@@ -90,7 +90,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Contact
 
-Reda BELHAJ - [@RedatoB](https://twitter.com/RedatoB) - reda.belhaajj@gmail.com
+Reda BELHAJ - [@RedatoB](https://twitter.com/RedatoB)
 
 Project Link: [https://github.com/Reda-BELHAJ/0xStockBot](https://github.com/Reda-BELHAJ/0xStockBot)
 
